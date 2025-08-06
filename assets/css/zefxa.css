@@ -314,7 +314,16 @@ ul {
   margin: 0;
   color: var(--zefxa-black);
   font-size: 45px;
-  line-height: 55px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-top: 7px;
+}
+
+.section-title__title1 {
+  margin: 0;
+  color: var(--zefxa-white);
+  font-size: 32px;
+  line-height: 40px;
   font-weight: 600;
   margin-top: 7px;
 }
@@ -3599,7 +3608,7 @@ ul {
   color: #f4f1ee;
   transform: rotate(90deg);
   position: absolute;
-  bottom: 307px;
+  bottom: 600px;
   left: -73px;
 }
 
@@ -3661,7 +3670,7 @@ ul {
   margin-left: 5px;
   margin-right: 5px;
   background-color: #dadcdd;
-  padding: 43px 28px 25px;
+  padding: 43px 40px 25px;
   padding-right: 20px;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
   z-index: 1;
