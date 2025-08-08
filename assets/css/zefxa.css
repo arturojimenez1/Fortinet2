@@ -313,7 +313,7 @@ ul {
 .section-title__title {
   margin: 0;
   color: var(--zefxa-black);
-  font-size: 45px;
+  font-size: 35px;
   line-height: 40px;
   font-weight: 600;
   margin-top: 7px;
@@ -3231,8 +3231,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  mix-blend-mode: luminosity;
-  opacity: .12;
+  opacity: .45;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
@@ -10175,8 +10174,10 @@ ul {
 }
 
 
-
-
+.service-two__icon i.fas.fa-shield-alt {
+  font-size: 30px; /* Ajusta según el diseño */
+  color: #fff; /* Usa el color del tema */
+}
 
 
 
